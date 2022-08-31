@@ -1,0 +1,63 @@
+.Blok1{
+    background-color: rgb(71, 64, 56);
+    /* margin-block-start: auto; */
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.Title1{
+    margin-left: 100px;
+    margin-right: auto;
+    color: white;
+    
+}
+
+.Title2{
+    color: white;
+}
+
+.Title_Epizod{
+margin-left: 30px;
+
+}
+
+.Kvintesense{
+color: white;
+
+}
+
+.WorkS_story{
+    margin-left: 15px;
+color: white;
+
+}
+
+.Work_Etap{
+    color: white;
+}
+
+.Work_Etap_HTTPS{
+    color: aqua;
+}
+
+.footer1 {
+    background-color: rgb(71, 64, 56);  
+    margin-left: 20px;
+    margin-right: 20px; 
+}
+
+.address1{
+color: white;
+/* margin-left: auto; */
+margin:auto ;
+
+}
+
+.HR1{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+
+}
+
