@@ -1,23 +1,30 @@
-.Blok1{
+.Blok-one{
     background-color: rgb(71, 64, 56);
+    /* background-image: -webkit-radial-gradient(rgb(71, 64, 56)); */
     /* margin-block-start: auto; */
     margin-left: 20px;
     margin-right: 20px;
     
 }
 
-.Title1{
+.main-title{
     margin-left: 100px;
     margin-right: auto;
     color: white;
     
 }
+.Title-one{
+    margin-left: 100px;
+    margin-right: auto;
+    color: white;
 
-.Title2{
+}
+
+.Title-two{
     color: white;
 }
 
-.Title_Epizod{
+.Title-Epizod{
 margin-left: 30px;
 
 }
@@ -27,37 +34,52 @@ color: white;
 
 }
 
-.WorkS_story{
+.WorkS-story{
     margin-left: 15px;
 color: white;
 
 }
 
-.Work_Etap{
+.Work-Etap{
     color: white;
 }
 
-.Work_Etap_HTTPS{
+.Work-Etap-HTTPS{
     color: aqua;
 }
 
-.footer1 {
+.footer-one {
     background-color: rgb(71, 64, 56);  
     margin-left: 20px;
     margin-right: 20px; 
 }
 
-.address1{
+.address-one{
 color: white;
 /* margin-left: auto; */
 margin:auto ;
 
 }
 
-.HR1{
+.HR-one{
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 10px;
 
 }
+.title-student{
+    font-size: 40px;
+    color: orangered;
+    margin-left: 50px;
+
+}
+.useful-links{
+    font-size: 30px;
+    margin-left: 100px;
+    margin-right: auto;
+    margin-bottom: 15px;
+    color: white; 
+    text-decoration: underline;  
+}
+
 
