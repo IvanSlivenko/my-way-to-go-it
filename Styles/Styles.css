@@ -1,7 +1,11 @@
-.Blok-one{
-    background-color:grey;
+:root{
+    --color-text:  white;
+}
 
-    /* margin-block-start: auto; */
+.Blok-one{
+    background:gray ;
+/* background-image: url(../images/fabric-background.jpg); */
+    
     margin-left: 20px;
     margin-right: 20px;
     
@@ -11,6 +15,7 @@
     margin-left: 100px;
     margin-right: auto;
     color: white;
+    
     
 }
 .Title-one{
@@ -55,7 +60,8 @@ color: white;
 }
 
 .address-one{
-color: white;
+    color: var(--color-text);
+/* color: white; */
 /* margin-left: auto; */
 margin:auto ;
 
