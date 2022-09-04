@@ -11,6 +11,7 @@
     
 }
 
+
 .main-title{
     margin-left: 100px;
     margin-right: auto;
@@ -47,6 +48,9 @@ color: white;
 
 .Work-Etap{
     color: white;
+}
+.Work-Etap a {
+    color: yellowgreen;
 }
 
 .Work-Etap-HTTPS{
@@ -87,5 +91,14 @@ margin:auto ;
     color: white; 
     text-decoration: underline;  
 }
+.final-img{
+    margin-top: 1px;
+}
+
+.title-final-img{
+    margin-bottom: 5px;
+    font-size: 35px;
+}
+
 
 
