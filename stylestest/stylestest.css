@@ -1541,6 +1541,170 @@ text-align: left;
         transform:translateX(20px);
         
        } 
+       .section-test-fry {
+  
+        background-color: aquamarine;
+      }
+      .container-nine{
+        border: 1px solid tomato;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+        width: 940px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("../images/fabric-background.jpg");
+        
+      
+      }
+
+      .Title-modulbox-nine{
+        display: flex;
+        align-items: center;
+        
+
+        background-color: bisque;
+        border: 1px solid green;
+        border-radius: 5px;
+      }
+      .Title-modul-nine{
+       
+        font-size: 30px;
+        color: green;
+        margin-left: auto;
+        margin-right: auto;
+      
+
+
+      }
+      /* ////////////////////////////// */
+ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+img{
+
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  margin-top:0;
+
+}
+  p{
+    margin-top: 0;
+  }     
+.box-BEM{
+  color: #ffffff;
+}
+.site-nav{
+display: flex;
+margin-top: 20px;
+margin-bottom: 20px;
+
+}
+
+.site-nav__item{
+position: relative; 
+margin-right: 20px;
+
+}
+.site-nav__item:last-child{
+  margin-right: 0;
+}
+
+.site-nav__link{
+  font-size: 30px;
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: currentColor;
+
+  transition: color 5000ms linear;
+
+}
+.site-nav__link:hover{
+  color: aqua; 
+  
+}
+
+.site-nav__link:hover  .Site-nav__icon{
+  scale: 1;
+  
+}
+
+
+
+.Site-nav__icon{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+ scale: 0;
+  
+
+  display: block;
+  width: 20px;
+  height: 20px;
+  
+  background-image: url(../images/funny-duck.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  transition: scale 250ms linear;
+  
+
+
+}
+
+.site-nav__label{
+  margin-left: 10px;
+  
+}
+
+.logo__image{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  outline: transparent;
+  scale: 1;
+  transition: scale 250ms linear,
+              transition 250ms linear;
+
+}
+.logo__link{
+  display: flex;
+  align-items: baseline;
+  text-decoration: none;
+}
+.logo__link:hover .logo__image{
+  scale: 2;
+  transform: translateX(15px);
+ 
+}
+
+.Logo__label{
+  z-index: 1;
+  color: #ffffff;
+  font-size: 20px;
+  transition: transform 250ms linear;
+
+}
+.logo__link:hover .Logo__label{
+  scale: 2;
+  transform: translateX(75px) translateY(10px);
+  
+  color: yellow;
+ 
+}
+
 
 
 
