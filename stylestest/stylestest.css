@@ -1,4 +1,5 @@
-.Root {
+.Root{
+  margin-top: 1px;
   /* position: relative;
 
   position: absolute;
@@ -132,8 +133,7 @@ body{
   border-radius: 10%;
   border: 0px;
 }
-.items-button {
-}
+
 
 .test-position-two {
   /* align-items: center; */
@@ -603,13 +603,8 @@ opacity: 1;
   
   }
   
-  .item{
+ 
   
-  }
-  .icon{
-  
-      
-  }
   .product-meta{
     border: 1px solid tomato;
    
@@ -644,11 +639,7 @@ opacity: 1;
       right: 10%;
       }
 
-      .product:hover .product-actions {
-
-
-
-      } 
+      
 
       .page-header{
 
@@ -818,12 +809,8 @@ text-decoration: none;
 background-color: #ccc;
 display: none;
 }
-.menu-item-sab{
 
-}
-.menu-link-sab{
 
-}
 .container-acht{
   border: 1px solid tomato;
   flex-direction: column;
@@ -1553,7 +1540,7 @@ text-align: left;
         margin-left: auto;
         margin-right: auto;
         background-image: url("../images/fabric-background.jpg");
-        
+       
       
       }
 
@@ -1610,6 +1597,39 @@ margin-top: 20px;
 margin-bottom: 20px;
 
 }
+.header__pfoto{
+  display: flex;
+  align-items: center;
+
+/* background-image: url(../images/fon-meshok-2.png); */
+background-image: url(https://picsum.photos/980/120);
+background-size: cover;
+
+/* background-repeat: repeat; */
+height: 120px;
+
+}
+
+.page-header-two{
+  display: flex;
+  align-items: center;
+
+background-image: url(../images/fon-meshok-2.png);
+/* background-image: url(https://picsum.photos/980/120); */
+background-size: cover;
+
+/* background-repeat: repeat; */
+height: 120px;
+
+}
+
+.page-header__title{
+color:yellow;
+text-align:center;
+font-size: 50px;
+margin-top: 20px;
+
+}
 
 .site-nav__item{
 position: relative; 
@@ -1639,6 +1659,10 @@ margin-right: 20px;
   scale: 1;
   
 }
+.site-nav__link--acitve{
+
+color:yellow;
+}
 
 
 
@@ -1647,7 +1671,7 @@ margin-right: 20px;
   top: 50%;
   left: 0;
   transform: translateY(-50%);
- scale: 0;
+  scale: 0;
   
 
   display: block;
@@ -1684,6 +1708,13 @@ margin-right: 20px;
   align-items: baseline;
   text-decoration: none;
 }
+
+.logo__link--position{
+  margin-left: 20px;
+}
+
+
+
 .logo__link:hover .logo__image{
   scale: 2;
   transform: translateX(15px);
@@ -1697,6 +1728,14 @@ margin-right: 20px;
   transition: transform 250ms linear;
 
 }
+
+.Logo__label--invers{
+  z-index: 1;
+  color:brown;
+  font-size: 20px;
+  transition: transform 250ms linear;
+
+}
 .logo__link:hover .Logo__label{
   scale: 2;
   transform: translateX(75px) translateY(10px);
@@ -1705,8 +1744,225 @@ margin-right: 20px;
  
 }
 
+.input-bem__position{
+position: relative;
+width: 100%;
+height: 50px;
+padding-bottom: 20px;
+
+}
+.input-bem__label{
+  position: absolute;
+  top: 0;
+  right: 0;
+transform: translateX(-20%);
+  color:yellow;
+  /* color: black; */
+  font-size: 400;
+}
+.input-bem__email{
+  width: auto;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(450%)
+  translateY(80%);
+  outline: none;
+  border: none;
+  background-image: url(../images/fon-hand-email.png);
+  background-size: cover;
+  background-repeat: repeat;
+  background-color: yellow;
+  transition:  250ms linear;
+
+}
+.input-bem__email::placeholder{
+  color:#ffffff;
+  font-size: 20px;
+}
+
+.input-bem__email:not(:placeholder-shown){
+/* background-color: yellow; */
+color: #2196f3;
+background-image:none;
+
+}
+
+.input-bem__email:hover{
+  cursor: pointer;
+  background-image: none;
+
+}
+
+.input-bem__email:focus{
+ 
+  background-image: none;
+  color: #2196f3;
+
+
+}
+/* ///////////////////////////////////////////////////////////////////////// */
 
 
 
 
+
+/* card-set */
+
+.card-set{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+.card-set__item{
+  margin-right: 25px;
+}
+
+.card-set__item:last-child{
+
+  margin-right: 0px;
+  
+}
+
+.product__img{
+width: 280px;
+height: 280px;
+outline: none;
+border: none;
+scale: 1;
+transition: scale 1000ms linear;
+
+}
+
+.product__img:hover{
+  cursor: pointer;
+  scale: 1.15;
+
+}
+
+
+
+
+
+
+
+/* //////////////////////////////////////////// */
+
+.footer-logo__link{
+margin-top: 10px;
+margin-left: 15px;
+
+border: none;
+
+
+}
+.footer-logo__link:hover  .footer-logo__img{
+scale: 1.5;
+
+}
+
+.footer-logo__img{
+  display: block;
+  width:50px ;
+  height:50px ; 
+  margin-left: 15px;
+ outline: none;
+
+ border-radius: 50%;
+ scale: 1;
+ transition: 500ms linear;
+}
+
+.panel__title{
+  text-align: center;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+
+.notification{
+  display: flex;
+  align-items: center;
+
+padding:20px;
+margin-bottom: 0;
+max-width: 400px;
+background-color: #ccc;
+color: #ffffff;
+border-radius: 2px;
+
+}  
+.notification:hover{
+  cursor: pointer;
+} 
+
+.notification--success{
+  background-color: green;
+}
+
+.notification--warning{
+
+  background-color: orange;
+}
+.notification--error{
+  background-color: red;
+}
+.notification__icon{
+  width:32px ;
+  height: 32px;
+  background-color:rgb(53, 2, 101);
+  border-radius: 50%;
+  scale: 1;
+  transition:  250ms linear;
+ 
+}
+.notification__icon--position-left{
+margin-right: 20px;
+
+}
+
+.notification__icon--position-richt{
+  margin-left: 20px ;
+  
+  }
+  .notification:hover  .notification__icon{
+    background-color: #2196f3;
+    scale: 2;
+  }
+  .container-cine{
+        margin-top: 15px;
+        border: 1px solid tomato;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+        width: 940px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("../images/fabric-background.jpg");
+       
       
+      }
+      .testion-box{
+
+      width: auto;
+      height: 150px;
+
+      }
+      .testion-box__cvintesense-title{
+
+          margin-left: auto;
+          margin-right: auto;
+
+          color: #2196f3;
+          font-size: 30px;
+
+         }
+    
+
+
+
+
+
+
+

@@ -1,0 +1,257 @@
+$color-cvintesense-title-hover:green;
+
+.testion-box{
+    width: auto;
+    height: 180px;
+}
+.testion-box__cvintesense-title{
+    margin-left: auto;
+    margin-right: auto;
+
+    color: #2196f3;
+    font-size: 30px;
+    scale: 1;
+    transition: 1000ms linear;
+
+}  
+.testion-box__cvintesense-title:hover{
+    cursor: pointer;
+    color:$color-cvintesense-title-hover;
+    scale: 1.5;
+}
+.test-sass{
+
+    
+ width: 940px;
+ height: 50px;
+ margin-top: 20px;  
+ margin-left: auto;
+ margin-right: auto;
+
+
+}
+
+.test-sass__ovefloy {
+
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    background-image: url(../images/Yellow-maple-leaves-background-autumn_2560x1600.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    text-align: center;
+}
+
+ .test-sass__title {
+    
+     color: black;
+     padding-bottom: 5px;
+ }
+
+ .test-sass__text {
+     color: yellowgreen;
+     margin-left: 20px;
+ }
+.sass-selector{
+    display: flex;
+
+}
+.sass-selector__previu-oun{
+position: relative;
+display: block;
+width: 200px;
+height: 150px;
+background-image: url(../images/Screenshot_1.png);
+background-size: contain;
+margin-left: 20px;
+margin-top: 40px;
+border: 2px solid yellow;
+
+}
+.sass-selector__previu-oun-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-30px);
+
+    width: 100%;
+    height: 30px;
+    background-color: orange;
+    opacity: 0.8;
+    color: black;
+    text-align: center;
+    
+
+}
+.sass-selector__previu-two{
+position: relative;
+display: block;
+width: 200px;
+height: 150px;
+margin-left: 20px;
+background-image: url(../images/Screenshot_2.png);
+background-size: contain;
+margin-top: 40px;
+border: 2px solid yellow;
+
+
+}
+.sass-selector__previu-two-title {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translateY(-30px);
+
+        width: 100%;
+        height: 30px;
+        background-color: orange;
+        color: black;
+        text-align: center;
+
+        opacity: 0.8;
+        
+       
+}
+
+
+.prewiu-ampersant{
+    margin-top: 20px;
+    width: 100%;
+    // height: auto;
+    height: 20px;
+    background-color: peachpuff;
+    opacity: 0.8;
+
+    .prewiu-ampersant__text {
+       text-align: center;
+        margin-left: 20px;
+        color: black;
+    }
+
+}
+
+.sass-selector__previu-fry {
+    position: relative;
+    display: block;
+    width: 200px;
+    height: 150px;
+    margin-left: 20px;
+    background-image: url(../images/Screenshot_3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    border: 2px solid yellow;
+
+
+}
+
+.sass-selector__previu-foo {
+    position: relative;
+    display: block;
+    width: 200px;
+    height: 150px;
+    margin-left: 20px;
+    background-image: url(../images/Screenshot_4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    border: 2px solid yellow;
+
+}
+.sass-selector__previu-fei {
+    position: relative;
+    display: block;
+    width: 200px;
+    height: 150px;
+    margin-left: 20px;
+    background-image: url(../images/Screenshot_5.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    border: 2px solid yellow;
+
+}
+
+.sass-selector__previu-sixs {
+    position: relative;
+    display: block;
+    width: 200px;
+    height: 150px;
+    margin-left: 20px;
+    background-image: url(../images/Screenshot_6.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    border: 2px solid yellow;
+
+}
+.sass-selector__previu-seven {
+    position: relative;
+    display: block;
+    width: 200px;
+    height: 150px;
+    margin-left: 20px;
+    background-image: url(../images/Screenshot_7.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    border: 2px solid yellow;
+
+}
+.sass-selector__previu-acht {
+    position: relative;
+    display: block;
+    width: 200px;
+    height: 150px;
+    margin-left: 20px;
+    background-image: url(../images/Screenshot_8.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    border: 2px solid yellow;
+
+}
+.sass-selector__previu-neon {
+    position: relative;
+    display: block;
+    width: 200px;
+    height: 150px;
+    margin-left: 20px;
+    background-image: url(../images/Screenshot_9.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    border: 2px solid yellow;
+
+}
+.sass-selector__previu-zien {
+    position: relative;
+    display: block;
+    width: 200px;
+    height: 150px;
+    margin-left: 20px;
+    background-image: url(../images/Screenshot_10.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    border: 2px solid yellow;
+
+}
+
+.prewiu-ampersant__text--two {
+    text-align: center;
+    margin-left: 20px;
+    color:red;
+}
+
+.prewiu-ampersant__link{
+    padding-left: 20px;
+    color: gray;
+}
+
+
+
+
+
+

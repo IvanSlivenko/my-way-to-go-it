@@ -7,6 +7,7 @@
     <!-- Підключаємо файлик зі стилями -->
     <link rel="stylesheet" href="stylestest/stylestest.css" />
     <title>test</title>
+    <link rel="stylesheet" href="./css/main.min.css">
 
     <style>
       img {
@@ -33,6 +34,7 @@
   <body>
 <header class="page-header">
 
+  <a href="file:///C:/Users/Ira/Documents/GitHub/my-way-to-go-it/index.html" target="_blank">Навчальні матеріали</a>
 
 </header>
 
@@ -384,8 +386,8 @@
             name="name" id="name" 
             class="input-oun" 
             placeholder="Іван" 
-            autofocus="on"
-        autocomplete="on">
+            
+        autocomplete="off">
         <label for="name" class="label-oun   label-oun-positiion">
           Ім'я
      </label>
@@ -670,7 +672,7 @@
         </p>
 
         <p class="syntaxys"> 
-          a b 
+          a .b 
         <span class="syntaxys-text"> 
          нащадок
         </span> 
@@ -768,21 +770,76 @@
 <section  class="section-test-fry">
   <div class="container-nine">
     <div class="Title-modulbox-nine">
-      <p class="Title-modul-nine">Модуль № 7 Вебінар № 13 Методологія BEM (Блок Елемент Модифікатор)</p>
+      <p class="Title-modul-nine">Модуль № 7 
+        Вебінар № 13 Методологія BEM (Блок Елемент Модифікатор)</p>
     </div>
 
+
+
+
+    <!-- //////////////////////////////////////////// -->
+
+    
+ <div class="box-BEM">  
+ 
+ 
+  <p class="page-header__title"> Макет Header</p>
+  <div class="header__pfoto"></div>
+<header class="page-header-two">
+
+  
+
+  <a href="" class="logo__link  logo__link--position">
+    <img src="./images/honey.png" alt="honey" class="logo__image">
+    <span class="Logo__label   Logo__label--invers">Енергія для вражень</span>
+  </a>
+
+  <ul class="site-nav">
+    <li class="site-nav__item">
+      <a href="" class="site-nav__link    site-nav__link--acitve"> 
+        <span class="Site-nav__icon"></span> 
+        <span class="site-nav__label"> О нас</span>
+      </a>
+    </li>
+
+    <li class="site-nav__item">
+      <a href="" class="site-nav__link"> 
+        <span class="Site-nav__icon"></span> 
+        <span class="site-nav__label">Портфоліо</span>
+      </a>
+  </li>
+
+    <li class="site-nav__item">
+      <a href="" class="site-nav__link"> 
+        <span class="Site-nav__icon"></span> 
+
+     
+        <span class="site-nav__label"> Контакти</span>
+      </a>
+    </li>
+  </ul>
+
+
+</header>
 
 <a href="" class="logo__link">
   <img src="./images/honey.png" alt="honey" class="logo__image">
   <span class="Logo__label">Енергія для вражень</span>
 </a>
 
-
-    <!-- //////////////////////////////////////////// -->
- <div class="box-BEM">    
+    <div class="input-bem__position">
+      <a href="" class="input-bem__link" utofocus="on"></a>
+      <label for="input-bem__email" class="input-bem__label"> 
+        Email для реєстрації</label >
+        <input type="email" name="input-bem__email" placeholder=" " 
+        class="input-bem__email" 
+        id="input-bem__email" 
+        >  
+    </div>
+  
     <ul class="site-nav">
       <li class="site-nav__item">
-        <a href="" class="site-nav__link"> 
+        <a href="" class="site-nav__link    site-nav__link--acitve"> 
           <span class="Site-nav__icon"></span> 
           <span class="site-nav__label"> О нас</span>
         </a>
@@ -805,43 +862,404 @@
       </li>
     </ul>
 
-      <ul>
-        <li>
+      <ul class="card-set">
+        <li class="card-set__item">
           <article>
-            <img src="./images/divan-okean.jpg" alt="фото приклад" srcset="">
-            <div>
-              <h3>Назва продукта</h3>
-              <p>193 Кредита</p>
-              <button>В Корзину</button>
+            <!-- <img src="./images/divan-okean.jpg" alt="фото приклад" srcset="" class="product__img"> -->
+            <img src="https://picsum.photos/280/280" alt="picsum.photos" class="product__img">
+            <div class="product__meta">
+              <h3 class="product__name">Назва продукта</h3>
+              <p class="product__price">193 Кредита</p>
+              <button class="product__button">В Корзину</button>
           </div>
           </article>
         </li>
+
+        <li class="card-set__item">
+          <article>
+            <!-- <img src="./images/divan-okean.jpg" alt="фото приклад" srcset="" class="product__img"> -->
+            <img src="https://picsum.photos/280/280" alt="picsum.photos" class="product__img">
+            <div class="product__meta">
+              <h3 class="product__name">Назва продукта</h3>
+              <p class="product__price">193 Кредита</p>
+              <button class="product__button">В Корзину</button>
+          </div>
+          </article>
+        </li>
+
+        <li class="card-set__item">
+          <article>
+            <!-- <img src="./images/divan-okean.jpg" alt="фото приклад" srcset="" class="product__img"> -->
+            <img src="https://picsum.photos/280/280" alt="picsum.photos" class="product__img">
+            <div class="product__meta">
+              <h3 class="product__name">Назва продукта</h3>
+              <p class="product__price">193 Кредита</p>
+              <button class="product__button">В Корзину</button>
+          </div>
+          </article>
+        </li>
+
       </ul>
-      <p class="" >Поповнення рахунку</p>
-      <p class="" >Зміна тарифів</p>
-      <p class="" >Помилка проведення транзакції</p>
+
+      <p class="notification    notification--success" >
+        <span class="notification__icon     notification__icon--position-left"></span>
+        Поповнення рахунку
+      </p>
+
+      <p class="notification   notification--warning" >Зміна тарифів
+        <span class="notification__icon     notification__icon--position-richt"></span>
+      </p>
+      <p class="notification   notification--error" >
+        <span class="notification__icon     notification__icon--position-left"></span>
+        Помилка проведення транзакції</p>
+
+<button class="bem-button">
+  <span class="bem-button__icon">Иконка</span>
+  <span class="bem-button__label">Текст с кнопки</span>
+</button>
+
+
+
+<section class="panel">
+  <h2 class="panel__title">Рекомендовані</h2>
+  <ul class="card-set">
+    <li class="card-set__item">
+      <article>
+        <!-- <img src="./images/divan-okean.jpg" alt="фото приклад" srcset="" class="product__img"> -->
+          <img src="https://picsum.photos/280/280" alt="picsum.photos" class="product__img">
+        <div class="product__meta">
+          <h3 class="product__name">Назва продукта</h3>
+          <p class="product__price">193 Кредита</p>
+          <button class="product__button">В Корзину</button>
+      </div>
+      </article>
+    </li>
+
+    <li class="card-set__item">
+      <article>
+        <!-- <img src="./images/divan-okean.jpg" alt="фото приклад" srcset="" class="product__img"> -->
+        <img src="https://picsum.photos/280/280" alt="picsum.photos" class="product__img">
+        <div class="product__meta">
+          <h3 class="product__name">Назва продукта</h3>
+          <p class="product__price">193 Кредита</p>
+          <button class="product__button">В Корзину</button>
+      </div>
+      </article>
+    </li>
+
+    <li class="card-set__item">
+      <article>
+        <!-- <img src="./images/divan-okean.jpg" alt="фото приклад" srcset="" class="product__img"> -->
+        <img src="https://picsum.photos/280/280" alt="picsum.photos" class="product__img">
+        <div class="product__meta">
+          <h3 class="product__name">Назва продукта</h3>
+          <p class="product__price">193 Кредита</p>
+          <button class="product__button">В Корзину</button>
+      </div>
+      </article>
+    </li>
+
+  </ul>
+
+</section>
+
+<footer class="page__footer">
+
+  <!-- <a href="" class="footer-logo__link">
+  <img src="./images/honey.png" alt="honey" class="footer-logo__img" >
+  <span>Технокряк</span>
+</a>
+//////////////////////////////// -->
+
+<a href="" class="logo__link">
+  <img src="./images/honey.png" alt="honey" class="logo__image">
+  <span class="Logo__label">Енергія для вражень</span>
+</a>
+
+</footer>
+
 </div> 
 
     <!-- //////////////////////////////////////////// -->
                                                                               <!-- ///// Ключові моменти -->
    <div class="cvintesense-box">
 
-    <h4 class="cvintesense-title"> Ключові моменти</h4>
+      <h4 class="cvintesense-title"> Ключові моменти</h4>
    
-    <p class="syntaxys"> color: currentColor; - <span class="syntaxys-text"> наслідування 
-      кольору тексту від батьківського елементу
+          <p class="syntaxys"> input-email__label--active - <span class="syntaxys-text"> селектор
 
-    </span> 
-    </p>
+          </span> 
+          </p>
+          <p class="syntaxys"> input-email- <span class="syntaxys-text"> Блок
 
-    
+          </span> 
+          </p>
 
-   
+          </span> 
+          </p>
+          <p class="syntaxys"> __label - <span class="syntaxys-text"> Елемент
 
-10:10
+          </span> 
+          </p>
+
+        </span> 
+      </p>
+      <p class="syntaxys"> --active - <span class="syntaxys-text"> стан елементу
+
+      </span> 
+      </p>
+
+      <p class="syntaxys"> --active - <span class="syntaxys-text"> стан елементу
+
+      </span> 
+      </p>
+
+      <p class="syntaxys">У редакторі VSCode є розширення Live Sass Compiler,<span class="syntaxys-text"> для компіляції SASS.
+
+      </span> 
+      </p>
+
+      <p class="syntaxys">зручним застосунком Scout-App.<span class="syntaxys-text"> Можна скористатися
+
+      </span> 
+      </p>
+
+     
+
+          
+<a href="https://www.youtube.com/watch?v=AjzUOmu6DQs">https://www.youtube.com/watch?v=AjzUOmu6DQs</a>
+
+
+
+
+
     
   </div>
+
+  <div class="container-cine">
+    <div class="Title-modulbox-nine">
+      <p class="Title-modul-nine">Модуль № 7 
+        Вебінар № 14 Препроцесор Sass</p>
+        
+    </div>
+
+    
+      <div class="test-sass__ovefloy">
+        <h2 class="test-sass__title">Зразок роботи селекторів Sass</h2>
+      </div>
+    
+
+  <div class="prewiu-ampersant">
+  <p class="prewiu-ampersant__text"> cелектрри Sass компілюються в main.css </p>
+ </div>
+
+ <div class="sass-selector">
+    <div class="sass-selector__previu-oun">
+        <div class="sass-selector__previu-oun-title">
+          <p>saas</p>
+        </div>
+    </div>
+
+
+
+    <div class="sass-selector__previu-two">
+        <div class="sass-selector__previu-two-title">
+              <p>css</p>
+        </div>
+
+    </div>
+
+
+ </div>
+ <div class="sass-selector">
+    <div class="sass-selector__previu-fry">
+        <div class="sass-selector__previu-oun-title">
+          <p>saas</p>
+        </div>
+    </div>
+
+
+
+    <div class="sass-selector__previu-foo">
+        <div class="sass-selector__previu-two-title">
+              <p>css</p>
+        </div>
+
+    </div>
+
+
+
+ </div>
+
+ <div class="prewiu-ampersant">
+  <p class="prewiu-ampersant__text"> ampersant " & " в sass - в css приклеює 
+    батька до нащадка; кількість вкладень не обмежена</p>
+ </div>
+
+ <!-- //////////////////////////////////////////////////// -->
+  <div class="prewiu-ampersant">
+  <p class="prewiu-ampersant__text"> а тепер спрощуємо код</p>
+ </div>
+
+  <div class="sass-selector">
+      <div class="sass-selector__previu-fei">
+            <div class="sass-selector__previu-two-title">
+                  <p>css</p>
+            </div>
+      </div>
+
+        <div class="sass-selector__previu-sixs">
+              <div class="sass-selector__previu-two-title">
+                    <p>css</p>
+              </div>
+        </div>
+    </div>
+  <!-- //////////////////////////////////////////////// -->
+   <div class="prewiu-ampersant">
+  <p class="prewiu-ampersant__text"> при потребі додаємо :hover </p>
+ </div>
+
+  <div class="sass-selector">
+      <div class="sass-selector__previu-seven">
+            <div class="sass-selector__previu-two-title">
+                  <p>css</p>
+            </div>
+      </div>
+
+        <div class="sass-selector__previu-acht">
+              <div class="sass-selector__previu-two-title">
+                    <p>css</p>
+              </div>
+        </div>
+    </div>
+  <!-- //////////////////////////////////////////////// -->
+
+   <div class="prewiu-ampersant">
+  <p class="prewiu-ampersant__text"> не перевищуємо одного рівня вкладенності </p>
+ </div>
+
+  <div class="sass-selector">
+      <div class="sass-selector__previu-neon">
+            <div class="sass-selector__previu-two-title">
+                  <p>css</p>
+            </div>
+      </div>
+
+        <div class="sass-selector__previu-zien">
+              <div class="sass-selector__previu-two-title">
+                    <p>css</p>
+              </div>
+        </div>
+    </div>
+  <!-- //////////////////////////////////////////////// -->
+
+  <div class="prewiu-ampersant">
+    <a href="https://www.youtube.com/watch?v=AjzUOmu6DQs" target="_blank" 
+        class="prewiu-ampersant__link">
+        https://www.youtube.com/watch?v=AjzUOmu6DQs </a>
+            <span class="prewiu-ampersant__text--two"> 
+              Завершення перегляду: 33:05
+            </span>
+    </div>
+<!-- /////////////////////////// -->
+
+    <div class="testion-box"></div>
+<div class="cvintesense-box">
+<h4 class="testion-box__cvintesense-title"> Ключові моменти</h4>
+   
+          <p class="syntaxys"> .vscode 
+            <span class="syntaxys-text"> 
+            створюємо папку
+
+          </span> 
+          </p>
+
+          <p class="syntaxys"> .vscode/settings.json
+            <span class="syntaxys-text"> 
+            створюємо файл settings.json
+
+          </span> 
+          </p>
+
+          <p class="syntaxys"> settings.json
+            <span class="syntaxys-text"> 
+            заповнюємо по зразку файл settings.json
+
+          </span> 
+          </p>
+
+          <p class="syntaxys"> sass
+            <span class="syntaxys-text"> 
+            створюємо папку sass
+
+          </span> 
+          </p>
+
+          <p class="syntaxys"> sass/main.scss
+            <span class="syntaxys-text"> 
+            створюємо файл main.scss
+
+          </span> 
+          </p>
+
+          <p class="syntaxys">   link rel="stylesheet" href="./css/main.min.css"
+            <span class="syntaxys-text"> 
+            в html ( в Header ) підключаємо файл ./css/main.min.css
+
+          </span> 
+          </p>
+
+          <p class="syntaxys">   $color-cvintesense-title-hover:#green;
+            <span class="syntaxys-text"> 
+             створюємо sass змінну, що в min.css прописує тільки своє значенння
+
+          </span> 
+          </p>
+
+          <p class="syntaxys">   !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+            <span class="syntaxys-text"> 
+             пишемо селектори стилів тільки в.scss  в  .css не пишемо
+
+          </span> 
+          </p>
+
+          <p class="syntaxys">   Змінна об"явлена поза Селекторами
+            <span class="syntaxys-text"> 
+             = глобальна змінна 
+
+          </span> 
+          </p>
+
+          <p class="syntaxys">   Змінна об"явлена в межах Селектору
+            <span class="syntaxys-text"> 
+             = локальна змінна (діє в межах цього селектору) 
+
+          </span> 
+          </p>
+
+          <p class="syntaxys">   якщо Змінна не об"явлена в межах Селектору
+            <span class="syntaxys-text"> 
+              в межах цього селектору буде діяти глобальна Змінна 
+              (але локальна змінна, якщо є  перебиває глобальну змінну) 
+
+          </span> 
+          </p>
+
+          <a href="https://www.youtube.com/watch?v=AjzUOmu6DQs"  target="_blank">https://www.youtube.com/watch?v=AjzUOmu6DQs</a>
+23:33
+          
+          
+  
+
+
+
+</div>
+
 </section>
+
+
+
+
     
 <script>
 (()=>{
