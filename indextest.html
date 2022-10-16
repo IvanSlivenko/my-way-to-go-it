@@ -1423,14 +1423,17 @@
 <!-- /////////////////////////////////////////////////////////////////////// -->
  
 <div class="prewiu-ampersant">
-    <p class="  item-font-size" >Плейсхолдери</p>
+    <p class="  item-font-size" >Плейсхолдери, міксини</p>
+      
   </div>
 
   <div class="prewiu-ampersant">
+    <p class=" item-font-size--average" >Плейсхолдери (статичні шаблони стилів) - в одному 
+      місці оголошуємо і там де потрібно викликаємо</p>
+
     <p class="prewiu-ampersant__text"></p>
     <a href="" class="prewiu-ampersant__text"></a>
-    <p class="prewiu-ampersant__text"></p>
-    <a href="" class="prewiu-ampersant__text"></a>
+    
     
 
         <ul class="Metoda-import-Parshal__list">
@@ -1457,6 +1460,8 @@
     
           <li class="Metoda-import-Parshal__item">2. Додаємо знак % 
             до назви приєднуючого селектору.  </li>
+
+      </ul>
            <!-- /////////////////////////////////////////////////////// -->
       <div class="sass-selector">
 
@@ -1475,22 +1480,264 @@
       </div>
   <!-- /////////////////////////////////////////////////////////////////////// -->
         
-          <li class="Metoda-import-Parshal__item">n.  </li>
+          
+          <p class=" item-font-size--average-fo-mixin" >Міксини (динамічні шаблони стилів)
+             - в одному місці оголошуємо і там де потрібно викликаємо з можливістю змін 
+             для контректного місця</p>
+
+          <p class="text-paragraf" >Деректива=@mixin ;   Ім"я=bordered ;   Параметри= () </p>
+          <p class="text-paragraf" >Міксини потрібно оголошувати дерективою  @mixin</p>
+          <p class="text-paragraf" >Викликаємо у потрібному місці дерективою  @include</p>
+          
+          
             
+          <!-- /////////////////////////////////////////////////////////////////////// -->
+    
           
-          <li class="Metoda-import-Parshal__item">n.  </li>
+        
+      <div class="sass-selector">
+
+          <div class="sass-selector__previu--sixteen">
+                  <div class="sass-selector__previu-two-title">
+                        <p>scss</p>
+                  </div>
+          </div>
+
+          <div class="sass-selector__previu--twenty-five">
+                  <div class="sass-selector__previu-two-title">
+                        <p>css</p>
+                  </div>
+          </div>
+
+      </div>
+  <!-- /////////////////////////////////////////////////////////////////////// -->
+
+     <p class="text-paragraf" >Існує можливість динамічно змінювати Міксини в конкретному 
+      селекторі, використовуючи медтод оголошення змінної та повідомлення значення цієї змінної 
+    в порібному місці  </p>
+           
+      <div class="sass-selector">
+
+          <div class="sass-selector__previu--twenty-six">
+                  <div class="sass-selector__previu-two-title">
+                        <p>scss</p>
+                  </div>
+          </div>
+
+          <div class="sass-selector__previu--twenty-seven">
+                  <div class="sass-selector__previu-two-title">
+                        <p>css</p>
+                  </div>
+          </div>
+
+      </div>
+  <!-- /////////////////////////////////////////////////////////////////////// -->
+
+   <!-- /////////////////////////////////////////////////////////////////////// -->
+
+     <p class="text-paragraf" >Приклад mixin для  display: flex;  display: inline-flex; </p>
+           
+      <div class="sass-selector">
+
+          <div class="sass-selector__previu--twenty-eight">
+                  <div class="sass-selector__previu-two-title">
+                        <p>scss</p>
+                  </div>
+          </div>
+
+          <div class="sass-selector__previu--twenty-nine">
+                  <div class="sass-selector__previu-two-title">
+                        <p>css</p>
+                  </div>
+          </div>
+          <div class="sass-selector__previu--thirty">
+                  <div class="sass-selector__previu-two-title">
+                        <p>scss</p>
+                  </div>
+          </div>
+
+          <div class="sass-selector__previu--thirty-one">
+                  <div class="sass-selector__previu-two-title">
+                        <p>css</p>
+                  </div>
+          </div>
+
+      </div>
+  <!-- /////////////////////////////////////////////////////////////////////// -->
+
+  <!-- /////////////////////////////////////////////////////////////////////// -->
+
+     <p class="text-paragraf" >Приклад mixin для  display: flex;  display: inline-flex; 
+    де можемо вказати значення змінною для більшості випадків з можливістю перевизначення
+    в потрібних випадках  
+    </p>
+           
+      <div class="sass-selector">
+
+          <div class="sass-selector__previu--thirty-two">
+                  <div class="sass-selector__previu-two-title">
+                        <p>scss</p>
+                  </div>
+          </div>
+
+          
+      </div>
+  <!-- /////////////////////////////////////////////////////////////////////// -->
+     <!-- /////////////////////////////////////////////////////////////////////// -->
+
+     <p class="text-paragraf" >Приклад mixin  в системі sass</p>
+     <p class="text-paragraf" >Створюємо файл _mixins.scss в структурі scss </p>
+     <p class="text-paragraf" >Оголошуємо mixin в файлі _mixins.scss  </p>
+      <p class="text-paragraf" >Імпортуємо mixin в файлі _main.scss  </p>
+           
+      <div class="sass-selector">
+
+          <div class="sass-selector__previu--thirty-three">
+                  <div class="sass-selector__previu-two-title">
+                        <p>Структура файлів scss</p>
+                  </div>
+          </div>
+
+          <div class="sass-selector__previu--thirty-four">
+                  <div class="sass-selector__previu-two-title">
+                        <p>паршал _mixins.scss</p>
+                  </div>
+          </div>
+
+          <div class="sass-selector__previu--thirty-five">
+                  <div class="sass-selector__previu-two-title">
+                        <p>main.scss</p>
+                  </div>
+          </div>
           
 
-          <li class="Metoda-import-Parshal__item">n.  </li>
-          <li class="Metoda-import-Parshal__item">n.  </li>
-          <li class="Metoda-import-Parshal__item">n . </li>
-          <li class="Metoda-import-Parshal__item">n . </li>
-          <li class="Metoda-import-Parshal__item">n . </li>
-        </ul>
+      </div>
+  <!-- /////////////////////////////////////////////////////////////////////// -->
+  <div class="prewiu-ampersant">
+    <p class="  item-font-size" >Директиви each</p>
+      
+  </div>
+  
+   <p class="text-paragraf" >Приклад використання Директиви each  </p>
 
+<ul class="features">
+  <li class="features__icon--facebook"></li>
+  <li class="features__icon--instagram"></li>
+  <li class="features__icon--linkedin"></li>
+  <li class="features__icon--twitter"></li>
+</ul>
+        
+
+    <p class="text-paragraf" > Створюємо в main.scss масив значень змінної 
+      $icons:  </p>
+          <div class="sass-selector">
+
+              <div class="sass-selector__previu--thirty-six">
+                      <div class="sass-selector__previu-two-title">
+                            <p>main.scss</p>
+                      </div>
+              </div>
+
+          </div>
+          
+          <p class="text-paragraf" > @each - для кожного   </p>
+          <p class="text-paragraf" > $iconName - елемента масива  </p>
+          <p class="text-paragraf" > $icons - з масива $icons   </p>
+          <p class="text-paragraf" > Створюємо   </p>
+
+          <div class="sass-selector">
+
+              <div class="sass-selector__previu--thirty-seven">
+                      <div class="sass-selector__previu-two-title">
+                            <p>main.scss</p>
+                      </div>
+              </div>
+
+          </div>
+
+
+      <p class="text-paragraf" > Результат виконання директиви @each </p>
+
+          <div class="sass-selector">
+
+              <div class="sass-selector__previu--thirty-eight">
+                      <div class="sass-selector__previu-two-title">
+                            <p>main.scss</p>
+                      </div>
+              </div>
+
+              <div class="sass-selector__previu--thirty-nine">
+                      <div class="sass-selector__previu-two-title">
+                            <p>css</p>
+                      </div>
+              </div>
+
+          </div>
+
+          <p class="text-paragraf"  > #{} - інтерполяція </p>
+
+
+          <p class="text-paragraf" > Результат частина 2 виконання директиви @each </p>
+          <div class="sass-selector">
+
+              <div class="sass-selector__previu--forty">
+                      <div class="sass-selector__previu-two-title">
+                            <p>main.scss</p>
+                      </div>
+              </div>
+
+              <div class="sass-selector__previu--forty-oun">
+                      <div class="sass-selector__previu-two-title">
+                            <p>css</p>
+                      </div>
+              </div>
+
+          </div>
+
+
+          <p class="text-paragraf" >Директива @each 
+            в середині mixin
+          </p>
+
+          <p class="text-paragraf" > @each  генеруємо стилі для масиву змінної 
+            $icons
+          </p>
+
+           <p class="text-paragraf" > @mixin  створюємо     mixin 
+            
+          </p>
+
+           <p class="text-paragraf" > @include  викликаємо  mixin  
+            
+          </p>
+          <div class="sass-selector">
+
+              <div class="sass-selector__previu--forty-four">
+                      <div class="sass-selector__previu-two-title">
+                            <p>main.scss</p>
+                      </div>
+              </div>
+
+              <div class="sass-selector__previu--forty-two">
+                      <div class="sass-selector__previu-two-title">
+                            <p>main.scss</p>
+                      </div>
+              </div>
+
+              <div class="sass-selector__previu--forty-three">
+                      <div class="sass-selector__previu-two-title">
+                            <p>main.scss</p>
+                      </div>
+              </div>
+
+              
+          </div>
 
 
   </div>
+
+
+  
 
 <!-- //////////////////////////////////////////////// -->
 
@@ -1562,7 +1809,7 @@
         class="prewiu-ampersant__link">
         https://www.youtube.com/watch?v=AjzUOmu6DQs </a>
             <span class="prewiu-ampersant__text--two"> 
-              Завершення перегляду: 01:20:02
+              Завершення перегляду: 01:43:58
             </span>
     </div>
 <!-- /////////////////////////// -->

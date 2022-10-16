@@ -708,7 +708,7 @@ summary {
   border: 2px solid yellow;
 }
 
-.sass-selector__previu--base, .sass-selector__previu--twenty-four, .sass-selector__previu--twenty-three, .sass-selector__previu--twenty-two {
+.sass-selector__previu--base, .sass-selector__previu--forty-four, .sass-selector__previu--forty-three, .sass-selector__previu--forty-two, .sass-selector__previu--forty-oun, .sass-selector__previu--forty, .sass-selector__previu--thirty-nine, .sass-selector__previu--thirty-eight, .sass-selector__previu--thirty-seven, .sass-selector__previu--thirty-six, .sass-selector__previu--thirty-five, .sass-selector__previu--thirty-four, .sass-selector__previu--thirty-three, .sass-selector__previu--thirty-two, .sass-selector__previu--thirty-one, .sass-selector__previu--thirty, .sass-selector__previu--twenty-nine, .sass-selector__previu--twenty-eight, .sass-selector__previu--twenty-seven, .sass-selector__previu--twenty-six, .sass-selector__previu--twenty-five, .sass-selector__previu--sixteen, .sass-selector__previu--twenty-three, .sass-selector__previu--twenty-two {
   position: relative;
   display: block;
   width: 273px;
@@ -732,9 +732,193 @@ summary {
   background-repeat: no-repeat;
 }
 
-.sass-selector__previu--twenty-four {
+.sass-selector__previu--sixteen {
   margin-bottom: 15px;
   background-image: url(../images/Screenshot_24.png);
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+.sass-selector__previu--sixteen {
+  margin-bottom: 15px;
+  background-image: url(../images/Screenshot_16.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.sass-selector__previu--twenty-five {
+  margin-bottom: 15px;
+  background-image: url(../images/Screenshot_25.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.text-paragraf {
+  margin-top: 10px;
+  font-size: 20px;
+  color: blueviolet;
+}
+
+.sass-selector__previu--twenty-six {
+  margin-bottom: 15px;
+  background-image: url(../images/Screenshot_26.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.sass-selector__previu--twenty-seven {
+  margin-bottom: 15px;
+  background-image: url(../images/Screenshot_27.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.item-font-size--average {
+  font-size: 20px;
+  color: blueviolet;
+}
+
+.item-font-size--average-fo-mixin {
+  font-size: 20px;
+  color: blue;
+}
+
+.sass-selector__previu--twenty-eight {
+  margin-bottom: 15px;
+  background-image: url(../images/Screenshot_28.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.sass-selector__previu--twenty-nine {
+  margin-bottom: 15px;
+  background-image: url(../images/Screenshot_29.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.sass-selector__previu--thirty {
+  margin-bottom: 15px;
+  background-image: url(../images/Screenshot_30.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.sass-selector__previu--thirty-one {
+  margin-bottom: 15px;
+  background-image: url(../images/Screenshot_31.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.sass-selector__previu--thirty-two {
+  margin-bottom: 15px;
+  background-image: url(../images/Screenshot_32.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.sass-selector__previu--thirty-three {
+  margin-bottom: 15px;
+  background-image: url(../images/Screenshot_33.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.sass-selector__previu--thirty-four {
+  margin-bottom: 15px;
+  background-image: url(../images/Screenshot_34.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.sass-selector__previu--thirty-five {
+  margin-bottom: 15px;
+  background-image: url(../images/Screenshot_35.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.sass-selector__previu--thirty-six {
+  margin-bottom: 15px;
+  height: 70px;
+  background-image: url(../images/Screenshot_36.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.sass-selector__previu--thirty-seven {
+  margin-bottom: 15px;
+  height: 70px;
+  background-image: url(../images/Screenshot_37.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sass-selector__previu--thirty-eight {
+  margin-bottom: 15px;
+  background-image: url(../images/Screenshot_38.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.sass-selector__previu--thirty-nine {
+  margin-bottom: 15px;
+  background-image: url(../images/Screenshot_39.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.sass-selector__previu--forty {
+  margin-bottom: 15px;
+  background-image: url(../images/Screenshot_40.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.sass-selector__previu--forty-oun {
+  margin-bottom: 15px;
+  background-image: url(../images/Screenshot_41.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.sass-selector__previu--forty-two {
+  margin-bottom: 15px;
+  height: 100px;
+  background-image: url(../images/Screenshot_42.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.sass-selector__previu--forty-three {
+  margin-bottom: 15px;
+  height: 100px;
+  background-image: url(../images/Screenshot_43.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.sass-selector__previu--forty-four {
+  margin-bottom: 15px;
+  height: 100px;
+  background-image: url(../images/Screenshot_44.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.icon-facebook {
+  background-image: url(../images/facebook.cvg);
+}
+
+.icon-instagram {
+  background-image: url(../images/instagram.cvg);
+}
+
+.icon-linkedin {
+  background-image: url(../images/linkedin.cvg);
+}
+
+.icon-twitter {
+  background-image: url(../images/twitter.cvg);
 }/*# sourceMappingURL=main.css.map */
