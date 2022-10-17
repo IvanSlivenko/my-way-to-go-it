@@ -1,0 +1,14 @@
+
+.adaptiv-page-header{
+    border-top: 1px solid black;
+    border-bottom: 2px solid black;
+}
+
+
+.adaptiv-page-header .adaptiv-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 80px;
+
+}

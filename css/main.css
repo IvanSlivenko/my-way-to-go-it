@@ -269,6 +269,43 @@ summary {
   display: list-item;
 }
 
+.adaptiv-page-header {
+  border-top: 1px solid black;
+  border-bottom: 2px solid black;
+}
+
+.adaptiv-page-header .adaptiv-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-height: 80px;
+}
+
+.section {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.section-title {
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+@media (min-width: 800px) {
+  body {
+    background-color: rgba(255, 165, 0, 0.6);
+  }
+}
+body {
+  padding-top: 0;
+}
+
 .testion-box {
   width: auto;
   height: 180px;
@@ -921,4 +958,94 @@ summary {
 
 .icon-twitter {
   background-image: url(../images/twitter.cvg);
+}
+
+.container-nine {
+  margin-top: 20px;
+}
+
+.adaptive {
+  width: 100%;
+  height: auto;
+  background-color: rgba(250, 235, 215, 0.7);
+  margin-top: 15px;
+}
+
+.adaptive__cvintesense {
+  width: 100%;
+  height: auto;
+  background-color: rgba(250, 235, 215, 0.7);
+  margin-top: 15px;
+}
+
+.adaptive__cvintesense-item {
+  font-size: 15px;
+  color: brown;
+}
+
+.adaptive__item {
+  font-size: 25px;
+  text-align: center;
+  color: green;
+  margin-bottom: 0px;
+}
+
+.adaptive__item--title {
+  font-size: 35px;
+  text-align: center;
+  color: red;
+  margin-bottom: 0px;
+}
+
+.adaptive__image--oun {
+  width: 770px;
+  height: 870px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 1px solid yellowgreen;
+}
+
+.adaptive__image--auto {
+  width: auto;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  border: 1px solid yellowgreen;
+}
+
+.interval {
+  width: auto;
+  height: 20px;
+}
+
+.adaptive__link {
+  margin-top: 20px;
+  margin: 20px;
+  padding: 5px;
+  text-align: center;
+  font-size: 25px;
+  text-decoration: none;
+  color: gray;
+  background-color: orange;
+  border-radius: 5px;
+  scale: 1;
+  -webkit-transition: 1000ms linear;
+  transition: 1000ms linear;
+}
+
+.adaptive__link:hover {
+  scale: 1.5;
+  background-color: yellow;
+  color: rgba(0, 174, 255, 0.939);
+}
+
+.link_finish {
+  padding: 20px;
+  font-size: 15px;
+  color: gray;
+  text-decoration: none;
 }/*# sourceMappingURL=main.css.map */
