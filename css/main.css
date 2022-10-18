@@ -1,3 +1,20 @@
+@media (min-width: 800px) {
+  body {
+    background-color: rgba(255, 165, 0, 0.6);
+  }
+}
+.adaptiv-reviews-set, .adaptiv-feutures-set {
+  list-style: none;
+}
+
+.adaptiv-company-logo {
+  text-decoration: none;
+}
+
+.adaptiv-reviews-item, .adaptiv-feutures-item {
+  color: #fff;
+}
+
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 /*
 Document
@@ -297,11 +314,76 @@ summary {
   margin-bottom: 24px;
 }
 
-@media (min-width: 800px) {
-  body {
-    background-color: rgba(255, 165, 0, 0.6);
+.adaptiv-container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 480px) {
+  .adaptiv-container {
+    width: 480px;
   }
 }
+
+.adaptiv-company-logo {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: #03a9f4;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.adaptiv-feutures-item {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 32px;
+}
+
+.adaptiv-feutures-item:nth-child(1) {
+  background-color: #F44336;
+}
+
+.adaptiv-feutures-item:nth-child(2) {
+  background-color: #3f51b5;
+}
+
+.adaptiv-feutures-item:nth-child(3) {
+  background-color: #4CAf50;
+}
+
+.adaptiv-feutures-item:nth-child(4) {
+  background-color: #00BCd4;
+}
+
+.adaptiv-feutures-item:nth-child(5) {
+  background-color: #E91E63;
+}
+
+.adaptiv-feutures-item:nth-child(6) {
+  background-color: #009688;
+}
+
+.adaptiv-reviews-item {
+  text-align: center;
+  padding: 40px;
+  font-size: 48px;
+}
+
+.adaptiv-reviews-item:nth-child(1) {
+  background-color: #795548;
+}
+
+.adaptiv-reviews-item:nth-child(2) {
+  background-color: #607d8b;
+}
+
+.adaptiv-reviews-item:nth-child(3) {
+  background-color: #7B1Fa2;
+}
+
 body {
   padding-top: 0;
 }

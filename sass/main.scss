@@ -4,12 +4,23 @@ $icons:'facebook', 'instagram', 'linkedin',
 
 
 
-
+@import'./utils/base';
 @import'./utils/vars';
+@import'./utils/mixins';
 @import'./base/normalize';
 @import'./components/page-header';
 @import'./components/components';
-@import'./utils/base';
+@import'./components/container';
+@import'./components/company-logo';
+@import'./components/features';
+@import'./components/reviews';
+ 
+
+
+
+
+
+
 
 body {
     padding-top: 0;
@@ -853,19 +864,7 @@ color:rgba(0, 174, 255, 0.939);
     text-decoration: none;
 }
 
-.adaptiv-page-header{
 
-
-}
-
-.adaptiv-container{
-
-
-}
-.adaptiv-nav{
-
-
-}
 
 
 

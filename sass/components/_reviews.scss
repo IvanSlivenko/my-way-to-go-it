@@ -1,0 +1,17 @@
+.adaptiv-reviews-set{
+    @extend %list;
+
+}
+
+.adaptiv-reviews-item{
+    text-align: center;
+    padding: 40px;
+    // color: #fff;
+    @extend %text-color;
+    font-size: 48px;
+
+}
+
+$colors: "#795548", "#607d8b", "#7B1Fa2";
+
+@include colorize($colors, ".adaptiv-reviews-item");
