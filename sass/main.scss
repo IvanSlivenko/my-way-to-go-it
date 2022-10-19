@@ -8,6 +8,8 @@ $icons:'facebook', 'instagram', 'linkedin',
 @import'./utils/vars';
 @import'./utils/mixins';
 @import'./base/normalize';
+@import'./base/style-test';
+@import'./base/test-img';
 @import'./components/page-header';
 @import'./components/components';
 @import'./components/container';
@@ -770,99 +772,7 @@ border: 2px solid yellow;
 
     margin-top: 20px;
 }
-.adaptive{
 
-width: 100%;
-height: auto;
-background-color: rgba(250,235,215,0.7);
-
-margin-top: 15px;
-
-
-}
-.adaptive__cvintesense {
-
-    width: 100%;
-    height: auto;
-    background-color: rgba(250, 235, 215, 0.7);
-    
-
-    margin-top: 15px;
-
-
-}
-.adaptive__cvintesense-item{
-font-size: 15px;
-color: brown;
-
-}
-
-.adaptive__item {
-    font-size: 25px;
-    text-align: center;
-    color:green;
-    margin-bottom: 0px;
-
-}
-.adaptive__item--title{
-    font-size: 35px;
-    text-align: center;
-    color: red;
-    margin-bottom: 0px;
-
-}
-.adaptive__image--oun{
-  width: 770px;
-  height: 870px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  
-  border: 1px solid yellowgreen; 
-}
-
-.adaptive__image--auto {
-    width:auto;
-    height:auto;
-    margin-left: auto;
-    margin-right: auto;
-
-    margin-top: 10px;
-    margin-bottom: 30px;
- 
-    border: 1px solid yellowgreen;
-}
-.interval{
-    width: auto;
-    height: 20px;
-}
-.adaptive__link{
-    margin-top: 20px;
-    margin: 20px;
-    padding: 5px;
-    
-    text-align: center;
-    font-size: 25px;
-    text-decoration: none;
-    color: gray;
-    background-color: orange;
-    border-radius: 5px;
-
-    scale: 1;
-    transition: 1000ms linear;
-}
-.adaptive__link:hover{
-scale: 1.5;
-background-color: yellow;
-color:rgba(0, 174, 255, 0.939);
-}
-.link_finish{
-    padding: 20px;
-    font-size: 15px;
-    color: gray;
-    text-decoration: none;
-}
 
 
 
