@@ -8,6 +8,7 @@
 .adaptiv-reviews-set{
     @extend %list;
     display: flex;
+   
 
 }
 
@@ -20,6 +21,8 @@
     width: 33%;
     @media screen and (min-width: 1140px){
         font-size: 64px;
+       
+        
         
     }
 
