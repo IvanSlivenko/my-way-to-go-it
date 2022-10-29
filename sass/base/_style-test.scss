@@ -50,18 +50,49 @@
     height: 20px;
 }
 
+.adaptive__link--box{
+    
+    display: flex;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+
+   
+//    border: 1px solid black;
+
+
+}
+
 .adaptive__link {
+   
+
     margin-top: 20px;
     margin: 20px;
-    padding: 5px;
 
+    
+    padding: 5px;
     text-align: center;
+
     font-size: 25px;
-    text-decoration: none;
+   
+
+    text-decoration:none;
+
+
+    @media screen and (max-width: 760px){
+        font-size:18px;  
+        text-align: center;
+        
+        
+    }
+
+    
+
     color: gray;
     background-color: orange;
     border-radius: 5px;
 
+    border: none;
     scale: 1;
     transition: 1000ms linear;
 }
@@ -82,4 +113,11 @@
 .box-two-foto {
     display: flex;
     flex-wrap: wrap;
+}
+.button__indextest{
+
+
+}
+.adaptyve-section{
+   
 }
