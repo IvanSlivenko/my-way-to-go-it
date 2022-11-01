@@ -137,8 +137,61 @@
         sizes="(min-width:960px) 25vw , (min-width:576px) 50vw , 100vw">
         </li>
     </ul>
+
+    <picture>
+        <source srcset="
+        ./images/1-11-rotveller_320-256_.webp 320w,
+        ./images/1-11-rotveller_640-512_.webp 640w,
+        ./images/1-11-rotveller_960-768_.webp 960w,
+        ./images/1-11-rotveller_1280-1024_.webp 1280w
+        
+        " 
+        
+        type="image/webp">
+
+        <img src="./images/rotveller_320-256_.jpg" alt="dog">
+    </picture>
     
  </div> 
+
+    <div class="img-box">
+
+        <picture>
+            
+            <source
+            srcset="./images/1-11-rotveller_1280-1024_.webp"
+            type="image/webp"
+            media="(min-width: 1140px)"
+            />
+
+            <source
+            srcset="./images/Cat-3840.webp"
+            type="image/webp"
+            media="(min-width: 577px)"
+            />
+            
+            <source
+            srcset="./images/1-11-3-my-dream.webp"
+            type="image/webp"
+            media="(max-width: 576px)"
+            />
+
+            <img class="img-box-foto" src="./images/Cat-3840.webp" alt="supercat">
+
+        </picture>
+
+            <h2>Про собаку</h2>
+
+            <p class="img-box-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Optio dolore voluptatibus quo dignissimos cumque earum vero, 
+                voluptas nulla sit perferendis id, ex atque magnam ut? Aperiam 
+                itaque tempore provident omnis.
+            </p>
+
+    </div>
+
+
+
 
 
 </main>

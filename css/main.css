@@ -814,6 +814,32 @@ summary {
   }
 }
 
+.img-box {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+}
+
+.img-box-foto {
+  width: 100%;
+  height: 100%;
+}
+
+.img-box-text {
+  width: 100%;
+  height: auto;
+}
+
+.termin-blu {
+  color: rgb(0, 132, 255);
+}
+
+.termin-yellow {
+  color: yellow;
+}
+
 body {
   padding-top: 0;
 }
