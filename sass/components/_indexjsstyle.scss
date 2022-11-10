@@ -1,0 +1,104 @@
+.js__container{
+    width: 100%;
+    height: auto;
+
+    margin-left: 5px;
+    margin-right: 5px;
+
+    background-color: rgb(170, 156, 155);
+
+}
+
+.tezis-box{
+    // border-top: 1px solid white ;
+    display: flex;
+    flex-direction: column;
+
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    border-bottom: 2px solid white ;
+}
+
+.tezis-text{
+font-size: 15px;
+color: white;
+
+margin-bottom: 5px;
+
+
+}
+.link_js{
+// color: aquamarine;
+color: white;
+
+}
+.lekcion-name{
+    color: yellow;
+}
+.time-name{
+color: white;
+}
+.time-number{
+    color:rgb(29, 142, 235);
+    background-color: yellow;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.time-number:hover,
+.time-number:focus{
+    background-color: orange;
+    color: green;
+
+}
+.top-box{
+    // position: fixed;
+
+    width: 100%;
+    height: auto;
+    background-color: rgb(53, 51, 51);
+
+    display: flex;
+    align-items:center;
+    
+
+}
+.link__menu-js{
+    text-decoration: none;
+    color:black;
+    background-color: yellow;
+
+    
+    
+
+    margin-left: auto;
+    margin-right: 20px;
+
+    padding: 3px;
+    border-bottom:  1px solid white;
+    border-radius: 5px;
+    
+}
+.master-title__js{
+font-size: 40px;
+color: white;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.pry-master-title__js {
+    font-size: 30px;
+    color:rgb(117, 34, 212) ;
+    margin-left: 100px;
+    margin-right: auto;
+
+}
+.js_name{
+    font-size: 50px;
+    color: yellow;
+}
+.link__box{
+    margin-top: 10px;
+}
